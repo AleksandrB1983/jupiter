@@ -2,8 +2,9 @@ public class Main {
     public static void main(String[] args) {
         int a = 100; // сумма начального счёта
         int b = 2500; // сумма пополнения
+        int c = 1000; // предел ниже которого бонусы не начисляются
         int d = 100; // 1ед. бонуса со ста рублей
-        if (b >= 1000) {
+        if (b >= c) {
 
             System.out.println("Бонусное начисление с пополнения счёта");
             System.out.println((b / d) + " Число полученных бонусов");
